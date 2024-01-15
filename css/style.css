@@ -1,0 +1,94 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --main-color:#0076BE;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.text-main{
+    color: var(--main-color);
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+/* Start navbar */
+.nav-rectangle{
+    width: 38px;
+    height: 38px;
+    border: 5px solid #fff;
+}
+.Ellipse{
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    background-color: #fff;
+    border-radius:50% ;
+}
+.active{
+    border-bottom:2px solid #fff;
+    
+}
+/* End navbar */
+
+/* Start options */
+.option{
+    cursor: pointer;
+    border: 2px solid #0076BE;
+    border-radius: 5px;
+}
+.option span ,i{
+    font-size: 18px;
+    font-weight: bold;    
+}
+.icon-container{
+width: 43px;
+height: 43px;
+border-radius: 10px;
+background-color: #90c6e7;
+
+}
+/* End options */
+
+
+/* Start calculator */
+.calculator{
+    border-radius: 5px;
+}
+.calculator h3{
+    font-size: 20px;
+}
+.inputs input{
+    border-radius: 4px !important;
+}
+.calculator button{
+border: 0px;
+background: #A6D15C;
+border-radius: 3.62691px;
+
+}
+/* End calculator */
+
+
+/* Start offers */
+.offers-text h2{
+    font-size: 21px;
+}
+thead th{
+    font-weight: normal;
+}
+tbody td{
+    font-weight: bold;
+}
+tbody > tr > td:not(:first-child,:last-child) {
+    border-right: 1px solid #000;
+}
+tbody > tr > td{
+    border-bottom: 0px !important
+}
+tbody tr td{
+    font-size: 23px;
+}
+/* End offers */
